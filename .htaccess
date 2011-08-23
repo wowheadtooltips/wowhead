@@ -1,0 +1,2 @@
+ExpiresActive on
+ExpiresByType application/x-javascript A604800

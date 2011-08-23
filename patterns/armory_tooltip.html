@@ -1,0 +1,58 @@
+<table class="armory_tt_main">
+  <tr class="armory_tt_header">
+    <td class="armory_tt_avatar">
+      <img src="{avatar}">
+    </td>
+    <td class="armory_tt_char_info">
+      <span class="armory_tt_char_name">{name}</span>
+      <span class="armory_tt_char_guild">{guild} {rank}</span>
+      <span class="armory_tt_char_stuff">Level {level} {race} {class}</span>
+
+      <div class="armory_tt_talents">
+        {talents}
+      </div>
+    </td>
+ </tr>
+
+ <tr>
+  <td class="armory_tt_stat_health" colspan="100%">
+    <center> {health} </center>
+  </td>
+ </tr>
+
+ <tr>
+  <td class="armory_tt_stat_{secondbar_class}" colspan="100%">
+    <center> {secondbar} </center>
+  </td>
+ </tr>
+
+ <tr>
+  <td colspan="100%">
+   <table class="armory_tt_stats">
+   	{stats}
+   </table>
+
+  </td>
+</tr>
+<tr>
+    <td colspan="100%">
+	<table class="armory_tt_professions">
+		{prof}
+	</table>
+   </td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<table class="armory_tt_misc">
+			{misc}
+		</table>
+	</td>
+</tr>
+<tr>
+	<td colspan="100%">
+		<div align="center" style="font-weight: bold; color: #fff;">
+			Cached on {date} at {time}.
+		</div>
+	</td>
+</tr>
+</table>
